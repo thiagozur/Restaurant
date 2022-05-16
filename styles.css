@@ -1,0 +1,71 @@
+.mejores-platos li img{
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.mejores-platos{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    background-color: rgb(235, 204, 118);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+.footer{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.platos-recomendados li img{
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.platos-recomendados{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(182, 240, 116);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(221, 219, 219);
+    margin: 0;
+    padding: 0;
+}
+
+header, footer ul{
+    background-color: rgb(226, 151, 38);
+}
+
+.titulo{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (width <= 768px) {
+    .mejores-platos ul{
+        background-color: brown;
+    }
+}
